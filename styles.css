@@ -172,8 +172,6 @@ body {
   bottom: 14%;
   left: 50%;
   transform: translateX(-50%);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -268,7 +266,6 @@ body {
   background: var(--theme-color);
   height: 100%;
   width: 0%;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
   z-index: -1;
 }
